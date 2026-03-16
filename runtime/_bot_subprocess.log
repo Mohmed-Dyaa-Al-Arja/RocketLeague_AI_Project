@@ -1,0 +1,316 @@
+2026-03-10 16:16:57,049 INFO === run_match.py module loaded (pid=7220, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 16:16:57,066 INFO All project imports successful
+2026-03-10 16:18:12,590 INFO === run_match.py module loaded (pid=14116, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 16:18:12,610 INFO All project imports successful
+2026-03-10 16:18:12,653 INFO === run_match.py module loaded (pid=14116, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 16:18:12,653 INFO All project imports successful
+2026-03-10 16:18:13,863 INFO initialize_agent START (pid=14116, index=0, spawn_id=2033328601)
+2026-03-10 16:18:13,865 INFO Sidecar loaded: True
+2026-03-10 16:18:13,946 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'team_size', 'psyonix_difficulty', 'match_length', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_amount', 'boost_strength', 'rumble', 'gravity', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'quick_theme', 'blue_car_preset', 'blue_decal_preset', 'blue_wheel_preset', 'blue_boost_preset', 'blue_goal_explosion_preset', 'blue_finish_preset', 'orange_car_preset', 'orange_decal_preset', 'orange_wheel_preset', 'orange_boost_preset', 'orange_goal_explosion_preset', 'orange_finish_preset', 'team_color_blue', 'team_color_orange', 'custom_color_blue', 'custom_color_orange', 'difficulty', 'model_choice', 'overlay_menu_position', 'overlay_menu_size', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'play_as_human', 'arena']
+2026-03-10 16:18:14,156 INFO ControlPanel GUI started=True, error=None
+2026-03-10 16:18:14,174 INFO First get_output tick! num_cars=2
+2026-03-10 16:35:28,830 INFO === run_match.py module loaded (pid=18128, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 16:35:28,848 INFO All project imports successful
+2026-03-10 16:36:05,992 INFO === run_match.py module loaded (pid=25752, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 16:36:06,034 INFO All project imports successful
+2026-03-10 16:36:06,087 INFO === run_match.py module loaded (pid=25752, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 16:36:06,088 INFO All project imports successful
+2026-03-10 16:36:07,304 INFO initialize_agent START (pid=25752, index=0, spawn_id=1318928238)
+2026-03-10 16:36:07,306 INFO Sidecar loaded: True
+2026-03-10 16:36:07,307 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'team_size', 'psyonix_difficulty', 'match_length', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_amount', 'boost_strength', 'rumble', 'gravity', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'quick_theme', 'blue_car_preset', 'blue_decal_preset', 'blue_wheel_preset', 'blue_boost_preset', 'blue_goal_explosion_preset', 'blue_finish_preset', 'orange_car_preset', 'orange_decal_preset', 'orange_wheel_preset', 'orange_boost_preset', 'orange_goal_explosion_preset', 'orange_finish_preset', 'team_color_blue', 'team_color_orange', 'custom_color_blue', 'custom_color_orange', 'difficulty', 'model_choice', 'overlay_menu_position', 'overlay_menu_size', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'play_as_human', 'arena']
+2026-03-10 16:36:07,563 INFO ControlPanel GUI started=True, error=None
+2026-03-10 16:36:07,581 INFO First get_output tick! num_cars=2
+2026-03-10 16:54:48,315 INFO === run_match.py module loaded (pid=24484, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 16:54:48,333 INFO All project imports successful
+2026-03-10 16:56:46,320 INFO === run_match.py module loaded (pid=27560, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 16:56:46,339 INFO All project imports successful
+2026-03-10 16:56:46,369 INFO === run_match.py module loaded (pid=27560, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 16:56:46,369 INFO All project imports successful
+2026-03-10 16:56:47,577 INFO initialize_agent START (pid=27560, index=0, spawn_id=676038828)
+2026-03-10 16:56:47,578 INFO Sidecar loaded: True
+2026-03-10 16:56:47,578 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'team_size', 'psyonix_difficulty', 'match_length', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_amount', 'boost_strength', 'rumble', 'gravity', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'quick_theme', 'blue_car_preset', 'blue_decal_preset', 'blue_wheel_preset', 'blue_boost_preset', 'blue_goal_explosion_preset', 'blue_finish_preset', 'orange_car_preset', 'orange_decal_preset', 'orange_wheel_preset', 'orange_boost_preset', 'orange_goal_explosion_preset', 'orange_finish_preset', 'team_color_blue', 'team_color_orange', 'custom_color_blue', 'custom_color_orange', 'difficulty', 'model_choice', 'overlay_menu_position', 'overlay_menu_size', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'play_as_human', 'arena']
+2026-03-10 16:56:47,798 INFO ControlPanel GUI started=True, error=None
+2026-03-10 16:56:47,811 INFO First get_output tick! num_cars=2
+2026-03-10 17:15:23,995 INFO === run_match.py module loaded (pid=22392, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 17:15:24,015 INFO All project imports successful
+2026-03-10 17:16:06,001 INFO === run_match.py module loaded (pid=25500, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 17:16:06,033 INFO All project imports successful
+2026-03-10 17:16:06,086 INFO === run_match.py module loaded (pid=25500, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 17:16:06,086 INFO All project imports successful
+2026-03-10 17:16:07,296 INFO initialize_agent START (pid=25500, index=0, spawn_id=1246518663)
+2026-03-10 17:16:07,297 INFO Sidecar loaded: True
+2026-03-10 17:16:07,298 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'team_size', 'psyonix_difficulty', 'match_length', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_amount', 'boost_strength', 'rumble', 'gravity', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'quick_theme', 'blue_car_preset', 'blue_decal_preset', 'blue_wheel_preset', 'blue_boost_preset', 'blue_goal_explosion_preset', 'blue_finish_preset', 'orange_car_preset', 'orange_decal_preset', 'orange_wheel_preset', 'orange_boost_preset', 'orange_goal_explosion_preset', 'orange_finish_preset', 'team_color_blue', 'team_color_orange', 'custom_color_blue', 'custom_color_orange', 'difficulty', 'model_choice', 'overlay_menu_position', 'overlay_menu_size', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'play_as_human', 'arena']
+2026-03-10 17:16:07,499 INFO ControlPanel GUI started=True, error=None
+2026-03-10 17:16:07,522 INFO First get_output tick! num_cars=2
+2026-03-10 17:36:25,404 INFO === run_match.py module loaded (pid=25500, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 17:36:25,404 INFO All project imports successful
+2026-03-10 17:36:25,405 INFO === run_match.py module loaded (pid=25500, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 17:36:25,406 INFO All project imports successful
+2026-03-10 17:36:25,406 INFO initialize_agent START (pid=25500, index=0, spawn_id=1246518663)
+2026-03-10 17:36:25,407 INFO Sidecar loaded: True
+2026-03-10 17:36:25,407 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'team_size', 'psyonix_difficulty', 'match_length', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_amount', 'boost_strength', 'rumble', 'gravity', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'quick_theme', 'blue_car_preset', 'blue_decal_preset', 'blue_wheel_preset', 'blue_boost_preset', 'blue_goal_explosion_preset', 'blue_finish_preset', 'orange_car_preset', 'orange_decal_preset', 'orange_wheel_preset', 'orange_boost_preset', 'orange_goal_explosion_preset', 'orange_finish_preset', 'team_color_blue', 'team_color_orange', 'custom_color_blue', 'custom_color_orange', 'difficulty', 'model_choice', 'overlay_menu_position', 'overlay_menu_size', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'play_as_human', 'arena']
+2026-03-10 17:36:25,522 INFO ControlPanel GUI started=True, error=None
+2026-03-10 17:36:25,711 INFO First get_output tick! num_cars=2
+2026-03-10 17:36:35,720 INFO === run_match.py module loaded (pid=25500, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 17:36:35,720 INFO All project imports successful
+2026-03-10 17:36:35,722 INFO === run_match.py module loaded (pid=25500, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-10 17:36:35,722 INFO All project imports successful
+2026-03-10 17:36:35,722 INFO initialize_agent START (pid=25500, index=0, spawn_id=1246518663)
+2026-03-10 17:36:35,723 INFO Sidecar loaded: True
+2026-03-10 17:36:35,723 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'team_size', 'psyonix_difficulty', 'match_length', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_amount', 'boost_strength', 'rumble', 'gravity', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'quick_theme', 'blue_car_preset', 'blue_decal_preset', 'blue_wheel_preset', 'blue_boost_preset', 'blue_goal_explosion_preset', 'blue_finish_preset', 'orange_car_preset', 'orange_decal_preset', 'orange_wheel_preset', 'orange_boost_preset', 'orange_goal_explosion_preset', 'orange_finish_preset', 'team_color_blue', 'team_color_orange', 'custom_color_blue', 'custom_color_orange', 'difficulty', 'model_choice', 'overlay_menu_position', 'overlay_menu_size', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'play_as_human', 'arena']
+2026-03-10 17:36:35,873 INFO ControlPanel GUI started=True, error=None
+2026-03-10 17:36:36,028 INFO First get_output tick! num_cars=2
+2026-03-11 01:59:14,671 INFO === run_match.py module loaded (pid=20788, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 01:59:14,713 INFO All project imports successful
+2026-03-11 02:00:23,475 INFO === run_match.py module loaded (pid=3016, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 02:00:23,488 INFO All project imports successful
+2026-03-11 02:16:24,616 INFO === run_match.py module loaded (pid=16004, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 02:16:24,629 INFO All project imports successful
+2026-03-11 02:31:33,879 INFO === run_match.py module loaded (pid=9260, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 02:31:33,898 INFO All project imports successful
+2026-03-11 02:43:32,276 INFO === run_match.py module loaded (pid=9564, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 02:43:32,307 INFO All project imports successful
+2026-03-11 02:49:55,595 INFO === run_match.py module loaded (pid=15444, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 02:49:55,609 INFO All project imports successful
+2026-03-11 02:59:31,208 INFO === run_match.py module loaded (pid=14256, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 02:59:31,221 INFO All project imports successful
+2026-03-11 02:59:57,112 INFO === run_match.py module loaded (pid=6040, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 02:59:57,125 INFO All project imports successful
+2026-03-11 12:10:19,971 INFO === run_match.py module loaded (pid=23240, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 12:10:19,999 INFO All project imports successful
+2026-03-11 14:22:48,661 INFO === run_match.py module loaded (pid=2468, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 14:22:48,813 INFO All project imports successful
+2026-03-11 14:24:22,554 INFO === run_match.py module loaded (pid=10644, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 14:24:22,568 INFO All project imports successful
+2026-03-11 15:28:34,307 INFO === run_match.py module loaded (pid=7812, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 15:28:34,680 INFO All project imports successful
+2026-03-11 15:28:44,215 INFO === run_match.py module loaded (pid=18940, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 15:28:44,232 INFO All project imports successful
+2026-03-11 16:04:08,161 INFO === run_match.py module loaded (pid=6356, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 16:04:08,286 INFO All project imports successful
+2026-03-11 16:42:37,825 INFO === run_match.py module loaded (pid=19644, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 16:42:37,870 INFO All project imports successful
+2026-03-11 16:57:26,355 INFO === run_match.py module loaded (pid=11800, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 16:57:26,377 INFO All project imports successful
+2026-03-11 16:58:16,782 INFO === run_match.py module loaded (pid=16752, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 16:58:16,805 INFO All project imports successful
+2026-03-11 16:58:34,163 INFO === run_match.py module loaded (pid=4644, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 16:58:34,186 INFO All project imports successful
+2026-03-11 17:04:07,682 INFO === run_match.py module loaded (pid=15980, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 17:04:07,704 INFO All project imports successful
+2026-03-11 17:04:27,243 INFO === run_match.py module loaded (pid=3324, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 17:04:27,267 INFO All project imports successful
+2026-03-11 17:04:36,990 INFO === run_match.py module loaded (pid=8196, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 17:04:37,013 INFO All project imports successful
+2026-03-11 17:14:46,280 INFO === run_match.py module loaded (pid=12876, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 17:14:46,509 INFO All project imports successful
+2026-03-11 17:15:35,180 INFO === run_match.py module loaded (pid=22900, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 17:15:35,521 INFO All project imports successful
+2026-03-11 17:15:35,685 INFO === run_match.py module loaded (pid=22900, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 17:15:35,687 INFO All project imports successful
+2026-03-11 17:15:36,932 INFO initialize_agent START (pid=22900, index=0, spawn_id=1734353272)
+2026-03-11 17:15:36,971 INFO Sidecar loaded: True
+2026-03-11 17:15:36,971 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-11 17:15:37,190 INFO First get_output tick! num_cars=2
+2026-03-11 17:16:56,726 ERROR get_output crashed: 'AdaptiveLearner' object has no attribute 'record_human_control'
+Traceback (most recent call last):
+  File "D:\RocketLeague_RL_Project - Copy (2)\runtime\run_match.py", line 900, in get_output
+    return self._get_output_inner(packet)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\RocketLeague_RL_Project - Copy (2)\runtime\run_match.py", line 1239, in _get_output_inner
+    self.decision_engine.record_human_demo(
+  File "D:\RocketLeague_RL_Project - Copy (2)\game_logic\decision_engine.py", line 1144, in record_human_demo
+    self.adaptive.record_human_control(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AdaptiveLearner' object has no attribute 'record_human_control'
+
+2026-03-11 17:59:21,367 INFO === run_match.py module loaded (pid=22320, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 17:59:21,445 INFO All project imports successful
+2026-03-11 18:00:04,481 INFO === run_match.py module loaded (pid=1924, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:00:04,968 INFO All project imports successful
+2026-03-11 18:00:05,077 INFO === run_match.py module loaded (pid=1924, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:00:05,078 INFO All project imports successful
+2026-03-11 18:00:06,287 INFO initialize_agent START (pid=1924, index=0, spawn_id=1763549676)
+2026-03-11 18:00:06,325 INFO Sidecar loaded: True
+2026-03-11 18:00:06,326 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-11 18:00:06,639 INFO First get_output tick! num_cars=2
+2026-03-11 18:00:34,326 ERROR get_output crashed: 'AdaptiveLearner' object has no attribute 'record_human_control'
+Traceback (most recent call last):
+  File "D:\RocketLeague_RL_Project - Copy (2)\runtime\run_match.py", line 930, in get_output
+    return self._get_output_inner(packet)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\RocketLeague_RL_Project - Copy (2)\runtime\run_match.py", line 1310, in _get_output_inner
+    self.decision_engine.record_human_demo(
+  File "D:\RocketLeague_RL_Project - Copy (2)\game_logic\decision_engine.py", line 1144, in record_human_demo
+    self.adaptive.record_human_control(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AdaptiveLearner' object has no attribute 'record_human_control'
+
+2026-03-11 18:49:08,531 INFO === run_match.py module loaded (pid=10644, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:49:08,741 INFO All project imports successful
+2026-03-11 18:49:58,781 INFO === run_match.py module loaded (pid=16136, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:49:59,267 INFO All project imports successful
+2026-03-11 18:49:59,362 INFO === run_match.py module loaded (pid=16136, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:49:59,362 INFO All project imports successful
+2026-03-11 18:50:00,627 INFO initialize_agent START (pid=16136, index=0, spawn_id=1763397162)
+2026-03-11 18:50:00,638 INFO Sidecar loaded: True
+2026-03-11 18:50:00,638 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-11 18:50:01,085 INFO First get_output tick! num_cars=2
+2026-03-11 18:50:26,139 ERROR get_output crashed: 'AdaptiveLearner' object has no attribute 'record_human_control'
+Traceback (most recent call last):
+  File "D:\RocketLeague_RL_Project - Copy (2)\runtime\run_match.py", line 953, in get_output
+    return self._get_output_inner(packet)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\RocketLeague_RL_Project - Copy (2)\runtime\run_match.py", line 1357, in _get_output_inner
+    self.decision_engine.record_human_demo(
+  File "D:\RocketLeague_RL_Project - Copy (2)\game_logic\decision_engine.py", line 1144, in record_human_demo
+    self.adaptive.record_human_control(
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AdaptiveLearner' object has no attribute 'record_human_control'
+
+2026-03-11 18:58:36,718 INFO === run_match.py module loaded (pid=18792, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:58:36,782 INFO All project imports successful
+2026-03-11 18:58:42,994 INFO === run_match.py module loaded (pid=2024, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:58:43,060 INFO All project imports successful
+2026-03-11 18:58:43,068 INFO === run_match.py module loaded (pid=2024, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:58:43,068 INFO All project imports successful
+2026-03-11 18:58:44,279 INFO initialize_agent START (pid=2024, index=0, spawn_id=1501645626)
+2026-03-11 18:58:44,279 INFO Sidecar loaded: True
+2026-03-11 18:58:44,279 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-11 18:58:44,376 INFO First get_output tick! num_cars=2
+2026-03-11 18:59:17,933 INFO === run_match.py module loaded (pid=2384, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:59:17,979 INFO All project imports successful
+2026-03-11 18:59:24,536 INFO === run_match.py module loaded (pid=2056, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:59:24,622 INFO All project imports successful
+2026-03-11 18:59:24,631 INFO === run_match.py module loaded (pid=2056, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 18:59:24,632 INFO All project imports successful
+2026-03-11 18:59:25,841 INFO initialize_agent START (pid=2056, index=0, spawn_id=122180102)
+2026-03-11 18:59:25,842 INFO Sidecar loaded: True
+2026-03-11 18:59:25,842 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-11 18:59:25,954 INFO First get_output tick! num_cars=2
+2026-03-11 19:04:27,780 INFO === run_match.py module loaded (pid=21484, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 19:04:27,836 INFO All project imports successful
+2026-03-11 19:04:37,871 INFO === run_match.py module loaded (pid=15520, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 19:04:37,930 INFO All project imports successful
+2026-03-11 19:04:37,939 INFO === run_match.py module loaded (pid=15520, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 19:04:37,939 INFO All project imports successful
+2026-03-11 19:04:39,147 INFO initialize_agent START (pid=15520, index=0, spawn_id=466227497)
+2026-03-11 19:04:39,149 INFO Sidecar loaded: True
+2026-03-11 19:04:39,149 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-11 19:04:39,248 INFO First get_output tick! num_cars=6
+2026-03-11 23:25:32,062 INFO === run_match.py module loaded (pid=20836, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:25:32,062 INFO === run_match.py module loaded (pid=18200, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:25:32,063 INFO === run_match.py module loaded (pid=18216, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:25:32,241 INFO All project imports successful
+2026-03-11 23:25:32,243 INFO All project imports successful
+2026-03-11 23:25:32,244 INFO All project imports successful
+2026-03-11 23:25:36,511 INFO === run_match.py module loaded (pid=4600, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:25:36,550 INFO All project imports successful
+2026-03-11 23:26:26,742 INFO === run_match.py module loaded (pid=6596, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:26:27,401 INFO All project imports successful
+2026-03-11 23:26:27,496 INFO === run_match.py module loaded (pid=6596, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:26:27,496 INFO All project imports successful
+2026-03-11 23:26:28,707 INFO initialize_agent START (pid=6596, index=0, spawn_id=1776969542)
+2026-03-11 23:26:28,753 INFO Sidecar loaded: True
+2026-03-11 23:26:28,753 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-11 23:26:29,399 INFO First get_output tick! num_cars=4
+2026-03-11 23:34:39,326 INFO === run_match.py module loaded (pid=4796, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:34:39,382 INFO All project imports successful
+2026-03-11 23:34:47,259 INFO === run_match.py module loaded (pid=1252, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:34:47,315 INFO All project imports successful
+2026-03-11 23:34:47,323 INFO === run_match.py module loaded (pid=1252, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:34:47,323 INFO All project imports successful
+2026-03-11 23:34:48,533 INFO initialize_agent START (pid=1252, index=0, spawn_id=1572709982)
+2026-03-11 23:34:48,535 INFO Sidecar loaded: True
+2026-03-11 23:34:48,535 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-11 23:34:48,658 INFO First get_output tick! num_cars=4
+2026-03-11 23:38:45,765 INFO === run_match.py module loaded (pid=15968, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:38:45,839 INFO All project imports successful
+2026-03-11 23:38:53,642 INFO === run_match.py module loaded (pid=14240, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:38:53,695 INFO All project imports successful
+2026-03-11 23:38:53,702 INFO === run_match.py module loaded (pid=14240, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-11 23:38:53,702 INFO All project imports successful
+2026-03-11 23:38:54,911 INFO initialize_agent START (pid=14240, index=0, spawn_id=638421727)
+2026-03-11 23:38:54,912 INFO Sidecar loaded: True
+2026-03-11 23:38:54,912 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-11 23:38:55,062 INFO First get_output tick! num_cars=4
+2026-03-12 01:32:06,819 INFO === run_match.py module loaded (pid=4812, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 01:32:06,868 INFO All project imports successful
+2026-03-12 01:32:56,811 INFO === run_match.py module loaded (pid=18476, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 01:32:57,424 INFO All project imports successful
+2026-03-12 01:32:57,584 INFO === run_match.py module loaded (pid=18476, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 01:32:57,584 INFO All project imports successful
+2026-03-12 01:32:58,797 INFO initialize_agent START (pid=18476, index=0, spawn_id=1471876029)
+2026-03-12 01:32:58,839 INFO Sidecar loaded: True
+2026-03-12 01:32:58,839 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-12 01:32:59,299 INFO First get_output tick! num_cars=2
+2026-03-12 02:27:15,703 INFO === run_match.py module loaded (pid=3112, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 02:27:16,152 INFO All project imports successful
+2026-03-12 02:27:17,633 INFO === run_match.py module loaded (pid=12232, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 02:27:17,674 INFO All project imports successful
+2026-03-12 02:27:27,630 INFO === run_match.py module loaded (pid=24496, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 02:27:27,671 INFO All project imports successful
+2026-03-12 02:30:35,116 INFO === run_match.py module loaded (pid=7708, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 02:30:35,157 INFO All project imports successful
+2026-03-12 02:31:16,135 INFO === run_match.py module loaded (pid=10332, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 02:31:16,231 INFO All project imports successful
+2026-03-12 02:31:16,339 INFO === run_match.py module loaded (pid=10332, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 02:31:16,339 INFO All project imports successful
+2026-03-12 02:31:17,548 INFO initialize_agent START (pid=10332, index=0, spawn_id=749872022)
+2026-03-12 02:31:17,549 INFO Sidecar loaded: True
+2026-03-12 02:31:17,549 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-12 02:31:17,776 INFO First get_output tick! num_cars=2
+2026-03-12 02:41:24,290 INFO === run_match.py module loaded (pid=20076, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 02:41:24,341 INFO All project imports successful
+2026-03-12 02:41:29,816 INFO === run_match.py module loaded (pid=5628, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 02:41:29,890 INFO All project imports successful
+2026-03-12 02:41:29,898 INFO === run_match.py module loaded (pid=5628, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 02:41:29,898 INFO All project imports successful
+2026-03-12 02:41:31,109 INFO initialize_agent START (pid=5628, index=0, spawn_id=1974555345)
+2026-03-12 02:41:31,111 INFO Sidecar loaded: True
+2026-03-12 02:41:31,111 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-12 02:41:31,281 INFO First get_output tick! num_cars=2
+2026-03-12 23:32:17,811 INFO === run_match.py module loaded (pid=1132, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 23:32:18,760 INFO All project imports successful
+2026-03-12 23:33:52,963 INFO === run_match.py module loaded (pid=17096, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 23:33:55,805 INFO All project imports successful
+2026-03-12 23:34:05,651 INFO === run_match.py module loaded (pid=12088, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 23:34:05,707 INFO All project imports successful
+2026-03-12 23:34:15,657 INFO === run_match.py module loaded (pid=2320, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 23:34:15,711 INFO All project imports successful
+2026-03-12 23:34:15,781 INFO === run_match.py module loaded (pid=2320, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 23:34:15,781 INFO All project imports successful
+2026-03-12 23:34:17,064 INFO initialize_agent START (pid=2320, index=0, spawn_id=28749657)
+2026-03-12 23:34:17,064 INFO Sidecar loaded: True
+2026-03-12 23:34:17,065 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-12 23:34:17,625 INFO First get_output tick! num_cars=4
+2026-03-12 23:36:50,721 INFO === run_match.py module loaded (pid=1560, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 23:36:50,770 INFO All project imports successful
+2026-03-12 23:36:57,404 INFO === run_match.py module loaded (pid=19092, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 23:36:57,458 INFO All project imports successful
+2026-03-12 23:36:57,466 INFO === run_match.py module loaded (pid=19092, exe=D:\RocketLeague_RL_Project - Copy (2)\.venv\Scripts\python.exe) ===
+2026-03-12 23:36:57,466 INFO All project imports successful
+2026-03-12 23:36:58,674 INFO initialize_agent START (pid=19092, index=0, spawn_id=27596313)
+2026-03-12 23:36:58,675 INFO Sidecar loaded: True
+2026-03-12 23:36:58,676 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-12 23:36:58,889 INFO First get_output tick! num_cars=4
+2026-03-16 14:37:02,646 INFO === run_match.py module loaded (pid=16568, exe=D:\RocketLeague_RL_Project\.venv\Scripts\python.exe) ===
+2026-03-16 14:37:03,383 INFO All project imports successful
+2026-03-16 14:39:21,805 INFO === run_match.py module loaded (pid=26328, exe=D:\RocketLeague_RL_Project\.venv\Scripts\python.exe) ===
+2026-03-16 14:39:23,738 INFO All project imports successful
+2026-03-16 14:39:32,506 INFO === run_match.py module loaded (pid=18152, exe=D:\RocketLeague_RL_Project\.venv\Scripts\python.exe) ===
+2026-03-16 14:39:32,767 INFO All project imports successful
+2026-03-16 14:39:33,012 INFO === run_match.py module loaded (pid=18152, exe=D:\RocketLeague_RL_Project\.venv\Scripts\python.exe) ===
+2026-03-16 14:39:33,013 INFO All project imports successful
+2026-03-16 14:39:34,320 INFO initialize_agent START (pid=18152, index=0, spawn_id=773564229)
+2026-03-16 14:39:34,321 INFO Sidecar loaded: True
+2026-03-16 14:39:34,321 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-16 14:39:34,659 INFO First get_output tick! num_cars=2
+2026-03-16 14:39:34,913 INFO === run_match.py module loaded (pid=18152, exe=D:\RocketLeague_RL_Project\.venv\Scripts\python.exe) ===
+2026-03-16 14:39:34,913 INFO All project imports successful
+2026-03-16 14:39:34,915 INFO === run_match.py module loaded (pid=18152, exe=D:\RocketLeague_RL_Project\.venv\Scripts\python.exe) ===
+2026-03-16 14:39:34,915 INFO All project imports successful
+2026-03-16 14:39:34,916 INFO initialize_agent START (pid=18152, index=0, spawn_id=773564229)
+2026-03-16 14:39:34,916 INFO Sidecar loaded: True
+2026-03-16 14:39:34,916 INFO Effective mode=balanced, temp_reset=False, settings_keys=['game_mode', 'arena', 'team_size', 'match_length', 'boost_amount', 'gravity', 'difficulty', 'psyonix_difficulty', 'model_choice', 'search_algorithms', 'rl_models', 'active_advanced_models', 'strategy', 'overlay_menu_position', 'launcher_platform', 'launcher_launch_mode', 'max_score', 'overtime', 'series_length', 'game_speed', 'boost_strength', 'rumble', 'demolish', 'respawn_time', 'ball_max_speed', 'ball_type', 'ball_weight', 'ball_size', 'ball_bounciness', 'play_as_human', 'rl_tuning_preset', 'movement_speed', 'steering_sensitivity', 'boost_aggression_scale', 'aerial_commitment', 'quick_theme', 'blue_car_preset', 'orange_car_preset']
+2026-03-16 14:39:36,669 INFO First get_output tick! num_cars=2

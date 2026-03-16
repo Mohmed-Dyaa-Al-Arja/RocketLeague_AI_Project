@@ -1,0 +1,235 @@
+Rocket League AI Project - Algorithms and Docker Overview
+=========================================================
+
+1. Project Summary
+------------------
+This project implements an academic Rocket League bot using:
+  - Classical search algorithms for path planning and navigation
+  - Reinforcement learning algorithms for strategy and role selection
+  - A modular decision system that combines both layers in real time
+
+The code is organized into multiple packages (core, game_logic, navigation,
+model, runtime, gui, visualization) to keep algorithms, strategy and
+infrastructure clearly separated.
+
+
+2. Classical Search Algorithms
+------------------------------
+Location:  core/all_algorithms.py  and related modules under core/
+
+Main algorithms:
+  - A* (astar_search)
+      * f(n) = g(n) + h(n)
+      * Used for efficient path planning with an admissible heuristic
+  - BFS (bfs_search)
+      * Level-order search (FIFO queue)
+      * Guarantees shortest path in unweighted grids
+  - UCS (ucs_search)
+      * Uniform Cost Search (Dijkstra)
+      * f(n) = g(n) only, optimal with positive costs
+  - DFS (dfs_search)
+      * Depth-first exploration (stack based)
+      * Useful for exploring large spaces when optimality is not critical
+  - Greedy Best First (greedy_search)
+      * f(n) = h(n)
+      * Chooses nodes with lowest heuristic only (no cost so far)
+  - IDA* (ida_star_search)
+      * Iterative deepening A* on f-cost thresholds
+      * Uses less memory than classic A*
+  - Beam Search (beam_search)
+      * Keeps only a limited number of best frontier nodes each layer
+      * Trades completeness/optimality for speed
+  - Decision Tree
+      * Used for high-level state/action selection in some modes
+
+All these algorithms share a similar interface:
+  path, cost = search(start, goal, neighbors_fn, cost_fn, heuristic_fn)
+
+They are used mainly by navigation/path_planner.py and by the
+higher-level decision engine to generate paths across a discretized
+2D field grid (8-directional movement, Euclidean or octile cost,
+heuristic functions such as Manhattan or octile distance).
+
+
+3. Reinforcement Learning Algorithms
+------------------------------------
+Location:  core/rl_algorithms.py, core/adaptive_learner.py, core/reward_calculator.py
+
+Key RL techniques:
+  - Q-Learning              (role and action selection)
+  - SARSA                   (opponent modelling)
+  - DQN / Deep Value        (value function approximation)
+  - PPO / A2C / Actor-Critic
+  - Monte Carlo RL
+  - Model-Based RL
+  - Policy Gradient
+  - Ensemble Voting
+  - Online Learning
+
+The adaptive_learner coordinates multiple RL algorithms and combines
+them with classical search. The reward_calculator translates in-game
+signals into detailed rewards/penalties (goals, shots, saves, demos,
+positioning, ball direction, wasted boost, etc.).
+
+Knowledge is stored in JSON files under model/ (for example
+model/search_knowledge.json and model/rl_model_data.json), allowing the
+bot to keep learning patterns and statistics across sessions.
+
+
+4. Game Logic and Strategy Layer
+--------------------------------
+Location:  game_logic/
+
+Important modules:
+  - decision_engine.py
+      * Central decision pipeline:
+          Game State Detection → Strategy Selection →
+          Algorithm Selection → Path Planning →
+          Action Execution → Reward Evaluation → Learning Update
+  - strategy_manager.py / strategy_layer
+      * Switches between tactical modes such as:
+          Aggressive Attack, Defensive, Counter Attack,
+          Possession Control, Demo Strategy, Boost Control, Balanced
+  - mode_manager.py
+      * Maps keyboard shortcuts to modes (M/N/B/V/P etc.).
+
+The decision engine uses both search algorithms (for geometric
+navigation) and RL (for long-term strategy and adaptation). It
+continuously analyzes ball position, score difference, remaining time,
+boost, and opponent behaviour to pick the most suitable behaviour.
+
+
+5. Visualization and GUI
+------------------------
+Location:  visualization/ and gui/
+
+  - visualization/overlay_renderer.py
+      * Renders debugging overlay in-game:
+          - Car, ball, goals bounding boxes
+          - Current search path (yellow line)
+          - Field zones (attack/defense areas)
+          - Algorithm and game state info
+
+  - gui/control_panel.py
+      * Desktop GUI panel that shows:
+          - Active algorithm and strategy
+          - Algorithm usage statistics
+          - Learning status and model information
+      * Provides simple controls for starting / stopping certain modes.
+
+
+6. Runtime and Launcher
+-----------------------
+Location:  runtime/
+
+  - run_match.py
+      * Entry point used by RLBot to run a match and connect the bot
+        to Rocket League.
+  - launcher.py
+      * High-level launcher script that performs:
+          1. Environment / .venv check
+          2. Algorithm modules smoke-test
+          3. GUI and overlay smoke-test
+          4. Launch of Rocket League via RLBot with appropriate flags
+      * Provides logs about which modules are loaded and whether the
+        adaptive RL model / knowledge base are available.
+
+On Windows without Docker, you can start the system with:
+  - One‑click:  start_ai.bat
+  - Manual:     python runtime/launcher.py
+
+
+7. Docker Setup
+---------------
+The Docker setup is meant for development, testing and CI of the
+Python codebase and algorithms. It does NOT run the actual
+Rocket League game client inside the container. RLBot + Rocket League
+must run on a Windows desktop; Docker is best used here to validate
+algorithms and run automated tests.
+
+Files:
+  - Dockerfile
+  - docker-compose.yml
+
+7.1 Dockerfile
+~~~~~~~~~~~~~~
+Base image:
+  - python:3.11-slim
+
+Main steps:
+  1) Set /app as working directory.
+  2) Copy requirements.txt and install dependencies:
+        rlbot, websockets<14, numpy
+  3) Copy the entire project into the image.
+  4) Default CMD:
+        python tests/test_full_project.py
+
+You can override the default command when running the container, for
+example:
+  - Run full tests inside Docker:
+        docker run --rm -it rl-ai python tests/test_full_project.py
+  - Run the launcher logic only (no real Rocket League in Docker):
+        docker run --rm -it rl-ai python runtime/launcher.py
+
+7.2 docker-compose.yml
+~~~~~~~~~~~~~~~~~~~~~~
+Service:  rl_ai
+
+Key settings:
+  - build: .
+      * Builds the image from Dockerfile in the project root.
+  - working_dir: /app
+  - volumes:
+      * ./  mounted at /app  (so code changes on host are visible).
+  - command (default):
+      * ["python", "tests/test_full_project.py"]
+        → Run the full test suite when you do:  docker compose up
+
+You can change the command in docker-compose.yml to use the launcher
+instead:
+  - command: ["python", "runtime/launcher.py"]
+
+Note: Even with the launcher, inside Docker you will not get a real
+Rocket League window. Instead, you mainly exercise algorithm loading,
+knowledge base handling, the decision engine and GUI/overlay import
+checks.
+
+
+8. Typical Workflows
+--------------------
+A. Native Windows (recommended for actual gameplay)
+   1) Install Python 3.11 on Windows.
+   2) Double-click start_ai.bat  (creates .venv if missing and
+      installs requirements).
+   3) Follow launcher logs and in-game instructions.
+
+B. Docker (for development/tests)
+   1) Install Docker Desktop + WSL2 integration on Windows.
+   2) From the project root (where Dockerfile is):
+        # Build
+        docker build -t rl-ai .
+
+        # Run tests
+        docker run --rm -it rl-ai python tests/test_full_project.py
+
+        # Optional: run launcher logic
+        docker run --rm -it rl-ai python runtime/launcher.py
+
+   3) Or use Docker Compose:
+        docker compose up --build
+      This will build the image and execute the configured command
+      (by default, the test suite).
+
+
+9. Notes and Limitations
+------------------------
+  - RLBot and Rocket League are Windows-native; they are not expected
+    to run fully inside a slim Linux Docker container.
+  - Docker is ideal here for:
+      * Continuous integration tests
+      * Reproducible algorithm experiments
+      * Sharing the environment with fixed dependencies
+  - For real gameplay and visual overlay, run the bot natively on
+    Windows with Rocket League installed and RLBot configured.
+
+End of file.

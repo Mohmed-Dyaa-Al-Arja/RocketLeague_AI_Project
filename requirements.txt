@@ -1,0 +1,3 @@
+rlbot
+websockets<14
+numpy

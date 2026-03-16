@@ -1,0 +1,34 @@
+رفع المشروع على GitHub
+======================
+
+1. أنشئ مستودع جديد على GitHub (مثلاً: RocketLeague_AI_Project)
+
+2. من مجلد المشروع (D:\RocketLeague_RL_Project):
+
+   افتح PowerShell أو CMD واكتب:
+
+   git init
+   git add .
+   git commit -m "Initial commit"
+
+3. اربط المستودع المحلي بالريموت:
+
+   git remote add origin https://github.com/<username>/<repo>.git
+
+4. ادفع الملفات (push):
+
+   git branch -M main
+   git push -u origin main
+
+
+ملاحظات:
+---------
+- ملف .gitignore يمنع رفع ملفات البيئة الافتراضية (.venv)، ملفات النظام، وملفات التشييك المؤقتة.
+- كل ملفات المشروع (الكود، Dockerfile، docker-compose.yml، README، ملفات الشرح) ستُرفع.
+- بعد الرفع، يمكنك مشاركة رابط الريبو أو تشغيل المشروع من أي جهاز آخر بسهولة.
+
+للتشغيل:
+---------
+- على ويندوز:  start_ai.bat أو python runtime/launcher.py
+- عبر Docker:  docker build -t rl-ai . && docker run --rm -it rl-ai python tests/test_full_project.py
+- راجع README وملف PROJECT_DOCKER_AND_ALGORITHMS_OVERVIEW.txt لأي تفاصيل إضافية.

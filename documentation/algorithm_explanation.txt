@@ -1,0 +1,210 @@
+Rocket League AI - Classical Search Algorithm Explanation
+=========================================================
+
+This document explains the search algorithms used in this academic project,
+their mathematical formulas, complexity analysis, and trade-offs.
+
+No neural networks, reinforcement learning, PPO, or deep learning are used.
+All AI decisions rely exclusively on classical search algorithms.
+
+
+1) Algorithms Used
+------------------
+  - A* (A-Star)
+  - Breadth First Search (BFS)
+  - Uniform Cost Search (UCS)
+  - Greedy Best First Search
+  - Depth First Search (DFS)
+
+
+2) Why Each Algorithm Was Chosen
+---------------------------------
+
+A*
+  Chosen for efficient goal-directed path planning with path-cost awareness.
+  Balances exploration and exploitation using both actual cost and heuristic
+  estimate. Ideal for the balanced mode where speed and path quality matter.
+
+BFS
+  Chosen as a baseline uninformed search strategy. It guarantees the shortest
+  path (fewest edges) in an unweighted graph. Useful when each move has equal
+  weight and completeness is required.
+
+UCS (Uniform Cost Search)
+  Chosen for guaranteed least-cost path under non-negative edge costs.
+  Important in defense mode where safe, low-cost repositioning is valued
+  over speed.
+
+Greedy Best First Search
+  Chosen for fast, heuristic-driven pursuit. Rapidly moves toward the target
+  using only the heuristic estimate. Used in attack pressure where
+  reaction speed is more important than optimality.
+
+DFS (Depth First Search)
+  Included as a depth-oriented baseline for academic completeness. Uses minimal
+  memory and demonstrates stack-based exploration. Used for comparison and
+  analysis, not primary decision making.
+
+
+3) Mathematical Formulas
+------------------------
+
+A* (A-Star)
+  Evaluation function:
+      f(n) = g(n) + h(n)
+
+  where:
+      g(n) = actual cost from the start node to node n
+      h(n) = heuristic estimate from node n to the goal
+
+  If h(n) is admissible (never overestimates) and consistent (satisfies
+  the triangle inequality h(n) <= c(n, n') + h(n')), then A* is guaranteed
+  to find an optimal path.
+
+  Implementation: Uses a min-heap priority queue ordered by f(n).
+
+
+Breadth First Search (BFS)
+  Exploration rule:
+      Expand all nodes at depth d before expanding any node at depth d+1
+
+  Uses a FIFO queue (first-in, first-out).
+  Guarantees the shortest path by number of steps (not by cost) in an
+  unweighted graph.
+
+
+Uniform Cost Search (UCS)
+  Evaluation function:
+      f(n) = g(n)
+
+  where:
+      g(n) = cumulative path cost from start to node n
+
+  Implementation: Uses a min-heap priority queue ordered by g(n).
+  Expands the node with the lowest cumulative cost first.
+  Equivalent to Dijkstra's algorithm for a single goal.
+
+
+Greedy Best First Search
+  Evaluation function:
+      f(n) = h(n)
+
+  where:
+      h(n) = heuristic estimate from node n to the goal
+
+  Ignores the cost already paid (g(n)). Expands the node that appears
+  closest to the goal according to the heuristic.
+
+
+Depth First Search (DFS)
+  Exploration rule:
+      Always expand the most recently added (deepest) unexplored node
+
+  Uses a LIFO stack (last-in, first-out).
+  Explores one branch to its maximum depth before backtracking.
+
+
+4) Time and Space Complexity
+----------------------------
+
+Let:
+  b = branching factor
+  d = depth of the shallowest goal
+  m = maximum depth of the search tree
+  C* = optimal solution cost
+  epsilon = minimum step cost
+
+  Algorithm                   Time Complexity             Space Complexity
+  --------------------------------------------------------------------------
+  A*                          O(b^d)                      O(b^d)
+  BFS                         O(b^d)                      O(b^d)
+  UCS                         O(b^(1+floor(C*/epsilon)))  O(b^(1+floor(C*/epsilon)))
+  Greedy Best First Search    O(b^m)                      O(b^m)
+  DFS                         O(b^m)                      O(b*m)
+
+
+5) Completeness and Optimality
+------------------------------
+
+  Algorithm                   Complete?     Optimal?
+  --------------------------------------------------
+  A* (admissible h)           Yes           Yes
+  BFS                         Yes           Yes (unweighted)
+  UCS                         Yes           Yes
+  Greedy Best First Search    No*           No
+  DFS                         No**          No
+
+  *  Greedy can get stuck in cycles; complete on finite spaces with cycle checking.
+  ** DFS can get stuck in infinite branches; complete on finite spaces with cycle checking.
+
+
+6) Advantages and Disadvantages
+-------------------------------
+
+A*
+  Advantages:
+    - Complete and optimal with an admissible, consistent heuristic.
+    - Explores fewer nodes than BFS or UCS on informed problems.
+    - Universally applicable to weighted search problems.
+  Disadvantages:
+    - High memory usage: stores all generated nodes.
+    - Performance depends heavily on heuristic quality.
+
+BFS
+  Advantages:
+    - Complete; always finds the shortest path by number of steps.
+    - Simple to implement and understand.
+    - No heuristic needed.
+  Disadvantages:
+    - Very high memory and time usage for large branching factors.
+    - Does not consider edge costs.
+
+UCS
+  Advantages:
+    - Complete and optimal with non-negative edge costs.
+    - No heuristic needed; purely cost-driven.
+    - Handles variable-cost environments correctly.
+  Disadvantages:
+    - Can be slow when many low-cost alternatives exist.
+    - Does not use domain knowledge to focus search.
+
+Greedy Best First Search
+  Advantages:
+    - Often very fast in practice; heads directly toward the goal.
+    - Low number of expanded nodes in favorable cases.
+  Disadvantages:
+    - Not optimal; may find suboptimal solutions.
+    - Can get trapped in heuristic "valleys" far from the goal.
+    - Not complete without cycle detection.
+
+DFS
+  Advantages:
+    - Very low memory usage: O(b*m) compared to O(b^d) for BFS.
+    - Simple stack-based implementation.
+    - Good for problems where all solutions are at similar depth.
+  Disadvantages:
+    - Not optimal; may return a longer path.
+    - Can explore deep irrelevant branches endlessly.
+    - Not complete without depth limiting or cycle detection.
+
+
+7) Application in This Project
+------------------------------
+
+The Rocket League field is discretized into a 2D grid with step size 600 units.
+Each grid cell is a search node. 8-directional movement (N, NE, E, SE, S, SW,
+W, NW) is supported. The cost function is Euclidean distance between adjacent
+nodes. The heuristic function is Euclidean distance from the current node to
+the goal node.
+
+The decision engine selects an algorithm based on the current game mode:
+  - Attack mode:    Prefers A* (40%) and Greedy (25%) for aggressive pathing
+  - Defense mode:   Prefers UCS (35%) and A* (30%) for cost-safe positioning
+  - Balanced mode:  Distributes across all algorithms
+  - Reset mode:     Equal weights (20% each) for fresh analysis
+
+Algorithm selection is also influenced by past success stored in the
+persistent knowledge base (model/search_knowledge.json).
+
+The computed path is rendered in the game overlay as a yellow line
+connecting waypoints from the car to the target position.

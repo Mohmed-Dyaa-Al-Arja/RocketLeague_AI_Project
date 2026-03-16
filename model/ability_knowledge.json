@@ -1,0 +1,98 @@
+{
+  "plunger": {
+    "type": "ball_pull",
+    "best_use_case": "when_ball_near_goal",
+    "success_rate": 0.63,
+    "attempts": 12,
+    "wins": 8,
+    "description": "Pulls the ball toward the bot \u2014 best aimed at goal."
+  },
+  "grappling_hook": {
+    "type": "grapple",
+    "best_use_case": "aerial_intercept",
+    "success_rate": 0.71,
+    "attempts": 10,
+    "wins": 7,
+    "description": "Launches bot through the air toward ball/opponent."
+  },
+  "freezer": {
+    "type": "freeze",
+    "best_use_case": "defensive_clear",
+    "success_rate": 0.6,
+    "attempts": 8,
+    "wins": 5,
+    "description": "Freezes ball in place \u2014 use to stall enemy attack."
+  },
+  "haymaker": {
+    "type": "ball_push",
+    "best_use_case": "offensive_clear",
+    "success_rate": 0.67,
+    "attempts": 9,
+    "wins": 6,
+    "description": "Powerful spring that launches the ball at high speed."
+  },
+  "spikes": {
+    "type": "spike_control",
+    "best_use_case": "carry_attack",
+    "success_rate": 0.58,
+    "attempts": 14,
+    "wins": 8,
+    "description": "Attaches ball to car \u2014 drive it into the goal."
+  },
+  "punch": {
+    "type": "shock_push",
+    "best_use_case": "opponent_displacement",
+    "success_rate": 0.55,
+    "attempts": 11,
+    "wins": 6,
+    "description": "Punches opponents/ball away \u2014 use to clear defenders."
+  },
+  "tornado": {
+    "type": "ball_push",
+    "best_use_case": "midfield_disruption",
+    "success_rate": 0.5,
+    "attempts": 7,
+    "wins": 4,
+    "description": "Tornado that disrupts ball path and opponent position."
+  },
+  "batarang": {
+    "type": "ball_pull",
+    "best_use_case": "long_range_intercept",
+    "success_rate": 0.52,
+    "attempts": 8,
+    "wins": 4,
+    "description": "Boomerang that travels to target and returns."
+  },
+  "magnet": {
+    "type": "ball_pull",
+    "best_use_case": "when_ball_near",
+    "success_rate": 0.61,
+    "attempts": 9,
+    "wins": 6,
+    "description": "Temporarily magnetises ball toward the car."
+  },
+  "disruptor": {
+    "type": "boost",
+    "best_use_case": "boost_denial",
+    "success_rate": 0.56,
+    "attempts": 8,
+    "wins": 5,
+    "description": "Disables opponent boost temporarily."
+  },
+  "ball_lasso": {
+    "type": "ball_pull",
+    "best_use_case": "aerial_ball_control",
+    "success_rate": 0.58,
+    "attempts": 7,
+    "wins": 4,
+    "description": "Lasso that grabs and controls ball trajectory."
+  },
+  "spike": {
+    "type": "spike_control",
+    "best_use_case": "carry_attack",
+    "success_rate": 0.54,
+    "attempts": 8,
+    "wins": 4,
+    "description": "Attaches spikes to car \u2014 ram opponents or carry ball."
+  }
+}

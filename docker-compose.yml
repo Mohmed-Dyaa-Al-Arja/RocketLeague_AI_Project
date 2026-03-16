@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  rl_ai:
+    build: .
+    container_name: rl_ai_project
+    working_dir: /app
+    volumes:
+      - ./:/app
+    command: ["python", "tests/test_full_project.py"]
+    # لو حابب تشغّل الـ launcher بدل الاختبارات غيّر السطر السابق إلى:
+    # command: ["python", "runtime/launcher.py"]
+
+    # لو حابب تستخدم GPU أو إعدادات خاصة، عدّل الإعدادات هنا حسب Docker Desktop/WSL2

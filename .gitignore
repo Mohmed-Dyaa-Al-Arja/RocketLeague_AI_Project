@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model/Runtime/Checkpoints
+model/checkpoints/
+runtime/*.json
+
+# Docker
+*.log
+
+# Tests
+*.coverage
+htmlcov/
+
+# Misc
+*.~

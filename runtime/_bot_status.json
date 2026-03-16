@@ -1,0 +1,81 @@
+{
+  "alive": true,
+  "current_mode": "balanced",
+  "current_algo": "IDA*",
+  "current_game_state": "WallPlay",
+  "path_cost": 8.1,
+  "tick": 2910,
+  "my_score": 0,
+  "opp_score": 2,
+  "goal_limit": 7,
+  "algo_usage": {
+    "IDA*": 2909
+  },
+  "threat_level": 0.278,
+  "episode_reward": 98.05,
+  "reward_breakdown": {
+    "goal": 0.0,
+    "assist": 0.0,
+    "shot_target": 0.0,
+    "pass": 0.0,
+    "save": 160.0,
+    "clear": 0.0,
+    "demo_basic": 0.0,
+    "demo_ball": 0.0,
+    "demo_defend": 0.0,
+    "idle": -87.53,
+    "camping": -1.82,
+    "boost_waste": -0.05,
+    "continuous": 88.1,
+    "ball_control": 16.64,
+    "positioning": 137.27,
+    "momentum": -214.57,
+    "penalty": 0.0,
+    "team_play": 0.0
+  },
+  "strategy": "Balanced",
+  "search_advice": "A*",
+  "rl_advice": "actor_critic",
+  "rl_role": "balanced",
+  "situation": "we_have_ball",
+  "ball_pos": [
+    3605.7900390625,
+    -3574.2099609375,
+    93.13999938964844
+  ],
+  "ball_vel": [
+    -428.7909851074219,
+    -170.54100036621094,
+    0.0
+  ],
+  "car_pos": [
+    4078.989990234375,
+    -2864.06982421875,
+    689.9299926757812
+  ],
+  "opp_style": "balanced",
+  "arena": "DFHStadium",
+  "active_strategies": {
+    "kickoff": "speed_flip",
+    "attack": "wall_pass_attack",
+    "defense": "deep_rotation",
+    "passing": "quick_wall_pass",
+    "boost_route": "speed_boost_route"
+  },
+  "strategy_switch_reason": "pre-match selection",
+  "ability_name": "",
+  "ability_experimenting": false,
+  "ability_type": "",
+  "ability_use_case": "",
+  "ability_success_rate": "",
+  "bot_role": "support",
+  "team_mode": "default_rl",
+  "team_rotation_reason": "",
+  "team_directive": "",
+  "power_action": "standard",
+  "power_combo": "standard",
+  "power_threat_score": 0.0,
+  "power_opportunity_score": 0.0,
+  "teammate_abilities": {},
+  "opponent_abilities": {}
+}

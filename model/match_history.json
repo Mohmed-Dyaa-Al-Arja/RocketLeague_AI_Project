@@ -1,0 +1,74 @@
+{
+  "matches": [
+    {
+      "goals_scored": 0,
+      "goals_conceded": 9,
+      "kickoff_successes": 0,
+      "shot_successes": 0,
+      "possession_pct": 0.1042
+    },
+    {
+      "goals_scored": 0,
+      "goals_conceded": 1,
+      "kickoff_successes": 0,
+      "shot_successes": 0,
+      "possession_pct": 0.3574
+    },
+    {
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "kickoff_successes": 0,
+      "shot_successes": 0,
+      "possession_pct": 0.2058
+    },
+    {
+      "goals_scored": 0,
+      "goals_conceded": 0,
+      "kickoff_successes": 0,
+      "shot_successes": 0,
+      "possession_pct": 0.1197
+    },
+    {
+      "goals_scored": 0,
+      "goals_conceded": 7,
+      "kickoff_successes": 0,
+      "shot_successes": 0,
+      "possession_pct": 0.0
+    },
+    {
+      "goals_scored": 2,
+      "goals_conceded": 7,
+      "kickoff_successes": 0,
+      "shot_successes": 2,
+      "possession_pct": 0.0
+    },
+    {
+      "goals_scored": 1,
+      "goals_conceded": 5,
+      "kickoff_successes": 0,
+      "shot_successes": 1,
+      "possession_pct": 0.2627
+    },
+    {
+      "goals_scored": 0,
+      "goals_conceded": 5,
+      "kickoff_successes": 0,
+      "shot_successes": 0,
+      "possession_pct": 0.0718
+    },
+    {
+      "goals_scored": 4,
+      "goals_conceded": 5,
+      "kickoff_successes": 0,
+      "shot_successes": 4,
+      "possession_pct": 0.0
+    }
+  ],
+  "totals": {
+    "goals_scored": 7,
+    "goals_conceded": 39,
+    "kickoff_successes": 0,
+    "shot_successes": 7,
+    "matches_played": 9
+  }
+}

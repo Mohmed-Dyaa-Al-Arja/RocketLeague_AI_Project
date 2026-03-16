@@ -1,0 +1,2620 @@
+{
+  "DFHStadium": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "Mannfield": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "ChampionsField": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "UrbanCentral": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "BeckwithPark": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "NeoTokyo": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "AquaDome": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "Farmstead": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "StarbaseArc": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.0,
+          "attempts": 1,
+          "wins": 0,
+          "losses": 1
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.0,
+          "attempts": 1,
+          "wins": 0,
+          "losses": 1
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.0,
+          "attempts": 1,
+          "wins": 0,
+          "losses": 1
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.0,
+          "attempts": 1,
+          "wins": 0,
+          "losses": 1
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.0,
+          "attempts": 1,
+          "wins": 0,
+          "losses": 1
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "WastelandHS": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "Utopia_Retro": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "TheSanctuary": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "UtopiaColiseum": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.0,
+          "attempts": 4,
+          "wins": 0,
+          "losses": 4
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  },
+  "Park_P": {
+    "kickoff": {
+      "active": "speed_flip",
+      "entries": {
+        "speed_flip": {
+          "name": "speed_flip",
+          "description": "High-speed diagonal flip toward ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal": {
+          "name": "diagonal",
+          "description": "Diagonal approach for angle advantage",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "delayed": {
+          "name": "delayed",
+          "description": "Wait for opponent to commit, then dash",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_kickoff": {
+          "name": "fake_kickoff",
+          "description": "Fake direction before attacking ball",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "attack": {
+      "active": "wall_pass_attack",
+      "entries": {
+        "wall_pass_attack": {
+          "name": "wall_pass_attack",
+          "description": "Use side walls for angled shot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_attack": {
+          "name": "corner_attack",
+          "description": "Attack from corner with back-pass option",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_shot": {
+          "name": "direct_shot",
+          "description": "Fastest route \u2014 drive and shoot",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "fake_shot_dribble": {
+          "name": "fake_shot_dribble",
+          "description": "Fake shot, dribble into better position",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "defense": {
+      "active": "deep_rotation",
+      "entries": {
+        "deep_rotation": {
+          "name": "deep_rotation",
+          "description": "Rotate back deep; protect the goal",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "midfield_press": {
+          "name": "midfield_press",
+          "description": "Intercept in midfield before opponent dribbles",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "aggressive_clear": {
+          "name": "aggressive_clear",
+          "description": "Clear ball aggressively under pressure",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "shadow_defense": {
+          "name": "shadow_defense",
+          "description": "Shadow opponent, wait for mistake",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "passing": {
+      "active": "quick_wall_pass",
+      "entries": {
+        "quick_wall_pass": {
+          "name": "quick_wall_pass",
+          "description": "One-touch pass off side wall",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "centre_pass": {
+          "name": "centre_pass",
+          "description": "Pass through the centre to open team-mate",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "soft_pass": {
+          "name": "soft_pass",
+          "description": "Soft controlled pass to maintain possession",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "direct_play": {
+          "name": "direct_play",
+          "description": "Skip pass \u2014 shoot directly",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    },
+    "boost_route": {
+      "active": "speed_boost_route",
+      "entries": {
+        "speed_boost_route": {
+          "name": "speed_boost_route",
+          "description": "Sprint to large boost pad in opponent half",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "corner_boost_route": {
+          "name": "corner_boost_route",
+          "description": "Collect corner boost on the way to attack",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "safe_midboost": {
+          "name": "safe_midboost",
+          "description": "Pick up mid-field boost pad safely",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        },
+        "diagonal_boost": {
+          "name": "diagonal_boost",
+          "description": "Diagonal route collecting two small boost pads",
+          "success_rate": 0.5,
+          "attempts": 0,
+          "wins": 0,
+          "losses": 0
+        }
+      }
+    }
+  }
+}

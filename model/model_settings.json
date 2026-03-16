@@ -1,0 +1,34 @@
+{
+  "active_model": "temporary",
+  "learning_enabled": true,
+  "adaptive_difficulty": true,
+  "team_strategy": "Balanced",
+  "team_type": "default_rl",
+  "attacker_model": "custom_ai",
+  "support_model": "custom_ai",
+  "defender_model": "custom_ai",
+  "active_search": [
+    "A*",
+    "BFS",
+    "UCS",
+    "Greedy",
+    "DFS",
+    "IDA*",
+    "Beam Search",
+    "Decision Tree",
+    "Ball Prediction"
+  ],
+  "active_rl_models": [
+    "q_learning",
+    "sarsa",
+    "dqn",
+    "ppo",
+    "a2c",
+    "monte_carlo",
+    "model_based",
+    "actor_critic",
+    "online_learner",
+    "policy_gradient",
+    "ensemble"
+  ]
+}

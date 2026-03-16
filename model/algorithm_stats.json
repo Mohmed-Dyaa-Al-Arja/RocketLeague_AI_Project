@@ -1,0 +1,58 @@
+{
+  "A*": {
+    "goals_scored": 5,
+    "interceptions": 0,
+    "defensive_saves": 0,
+    "path_successes": 0,
+    "attempts": 5
+  },
+  "BFS": {
+    "goals_scored": 0,
+    "interceptions": 0,
+    "defensive_saves": 0,
+    "path_successes": 0,
+    "attempts": 0
+  },
+  "UCS": {
+    "goals_scored": 0,
+    "interceptions": 0,
+    "defensive_saves": 0,
+    "path_successes": 0,
+    "attempts": 0
+  },
+  "Greedy": {
+    "goals_scored": 0,
+    "interceptions": 0,
+    "defensive_saves": 0,
+    "path_successes": 0,
+    "attempts": 0
+  },
+  "DFS": {
+    "goals_scored": 0,
+    "interceptions": 0,
+    "defensive_saves": 0,
+    "path_successes": 0,
+    "attempts": 0
+  },
+  "Decision Tree": {
+    "goals_scored": 0,
+    "interceptions": 0,
+    "defensive_saves": 0,
+    "path_successes": 0,
+    "attempts": 0
+  },
+  "Beam Search": {
+    "goals_scored": 0,
+    "interceptions": 0,
+    "defensive_saves": 0,
+    "path_successes": 0,
+    "attempts": 0
+  },
+  "IDA*": {
+    "goals_scored": 7,
+    "interceptions": 0,
+    "defensive_saves": 0,
+    "path_successes": 0,
+    "attempts": 7
+  }
+}
