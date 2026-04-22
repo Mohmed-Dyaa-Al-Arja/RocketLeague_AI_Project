@@ -2,21 +2,15 @@
   "current_model": "persistent",
   "training_state": "training",
   "learning_rate": 0.001,
-  "last_reward": 98.04516631053862,
+  "last_reward": -238.539423652698,
   "episodes": 0,
-  "goals_total": 0,
-  "concedes_total": 2,
+  "goals_total": 2,
+  "concedes_total": 0,
   "win_rate": 0.0,
   "active_models": [],
   "active_search": [
     "A*",
-    "BFS",
-    "UCS",
-    "Greedy",
-    "DFS",
-    "IDA*",
-    "Beam Search",
-    "Decision Tree"
+    "Beam Search"
   ],
   "team_strategy": "balanced"
 }

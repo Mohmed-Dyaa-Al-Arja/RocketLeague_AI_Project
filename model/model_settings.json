@@ -9,26 +9,13 @@
   "defender_model": "custom_ai",
   "active_search": [
     "A*",
-    "BFS",
-    "UCS",
-    "Greedy",
-    "DFS",
-    "IDA*",
-    "Beam Search",
-    "Decision Tree",
-    "Ball Prediction"
+    "Beam Search"
   ],
   "active_rl_models": [
     "q_learning",
-    "sarsa",
     "dqn",
     "ppo",
-    "a2c",
-    "monte_carlo",
-    "model_based",
     "actor_critic",
-    "online_learner",
-    "policy_gradient",
-    "ensemble"
+    "online_learner"
   ]
 }
